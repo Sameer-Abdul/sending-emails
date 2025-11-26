@@ -4,10 +4,10 @@
   "description": "Excel upload -> send welcome email via Resend",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main",
+    "start": "node dist/main.js",
     "start:dev": "nest start --watch",
     "build": "nest build",
-    "start:prod": "node dist/main"
+    "start:prod": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
